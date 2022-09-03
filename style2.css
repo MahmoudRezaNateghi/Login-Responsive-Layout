@@ -2,8 +2,6 @@
     background-color: #167abc;
     display: flex;
     flex-direction: column;
-    
-    
  }
 p1 {
      
@@ -15,7 +13,6 @@ p1 {
     
  }
 .left-top{
-    /* border: 1px solid salmon; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,12 +38,10 @@ span{
     text-align: center;
     margin-top: 2px;
 }
-
 .logo{
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
-    /* border: 1px solid salmon;  */
+    margin-top: 15%;
     justify-content: space-between;
     align-items: center;
     row-gap: 120px;

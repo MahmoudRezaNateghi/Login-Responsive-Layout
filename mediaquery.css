@@ -1,0 +1,22 @@
+@media screen and (max-width:800px){
+    .main-container{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr auto;
+        width: 60%;
+        gap: 10px;
+    }
+    .d2{
+        grid-row: 2/3;
+        
+    }
+    .d3{
+        grid-row: 1/2;
+    }
+    .left-top{
+        margin-top: 5%;
+    }
+    .logo{
+        row-gap: 0px;
+        margin-top: 5%;
+    }
+}

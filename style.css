@@ -12,10 +12,11 @@ body{
 .main-container{
     display: grid;
     grid-template-columns: 0.6fr 0.8fr ;
+    grid-template-rows: 1fr;
     border: 1px solid black;
     width: 60%;
-    height: 600px;
-    margin : 5% auto;
+    /* height: 600px; */
+    margin :70px auto;
 
 }
 .d3{
@@ -42,23 +43,25 @@ input[type=text],input[type=password]{
     font-size: 1rem;
     font-weight: bold;
     border: none;  
-    width: 40%;
+    width: 80%;
     outline: none;
     direction: rtl;
     height: 50px;
-    margin-left:45% ;
+    margin-left:auto; 
+    padding-right: 7px;
 }
 #dd2{
     margin-left: 5px;
     color:#b6babe;
 }
 .icon{
+    display: flex;
     flex-direction: row;
+    align-items: center;
     border: 1px solid #b6babe; 
-    
 }
 .recapture{
-    width: 22%;
+    width: auto;
     font-size: 1.7em;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -78,7 +81,6 @@ p{
     height: 40px;
     display: flex;
     flex-direction: row;
-    /* border: 1px solid salmon; */
     justify-content: space-between;
 
 }
